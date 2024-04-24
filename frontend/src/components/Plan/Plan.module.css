@@ -1,0 +1,216 @@
+.rap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9.375vw;
+}
+
+.fl_c {
+  display: flex;
+  flex-direction: column;
+}
+.fl {
+  display: flex;
+}
+.al_c {
+  align-items: center;
+}
+.g_8 {
+  gap: 8px;
+}
+.mpMsg {
+  width: 44.16vw;
+  height: 5vw;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  margin-top: 1.944vw;
+  color: #fff;
+}
+.mpTitle {
+  font-weight: 700;
+  font-size: 2.77vw;
+  line-height: 100%;
+  color: #fff;
+}
+.plansRap {
+  display: flex;
+  gap: 2.083vw;
+  justify-content: center;
+  padding-top: 4.86vw;
+  padding-bottom: 8vw;
+}
+
+.pName {
+  font-size: 2.22vw;
+  font-weight: 700;
+}
+.priRow {
+  display: flex;
+  align-items: center;
+  gap: 1.875vw;
+  margin-bottom: 2.083vw;
+}
+.pri {
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.perRap {
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 0.972vw;
+}
+.planAll {
+  width: 26.38vw;
+  position: relative;
+  padding: 1.25vw 1.875vw;
+}
+.plan0 {
+  height: 35.27vw;
+  background: #fff;
+}
+.plan1 {
+  height: 35.27vw;
+  border: 1px solid;
+  border-color: #fff;
+}
+.plan1 * {
+  color: #fff;
+}
+.plan2 {
+  height: 35.44vw;
+  background: #fff;
+}
+.lineRap {
+  margin: 0 auto;
+}
+.detRap {
+  font-family: Noto Sans JP;
+  font-size: 0.972vw;
+  gap: 1.388vw;
+  margin-top: 1.388vw;
+}
+.staRap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.16vw;
+}
+.sta {
+  width: 13.88vw;
+  height: 3.05vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.11vw;
+  font-weight: 700;
+  cursor: pointer;
+}
+.sta0 {
+  color: white;
+  background: #00081a;
+}
+.sta1 {
+  color: #00081a;
+  background: #fff;
+}
+.sta2 {
+  color: white;
+  background: #00081a;
+}
+.sta:hover {
+  background: #71ff01;
+  color: #00081a;
+}
+.SBTZ {
+  color: #fff;
+}
+.planIMGsp {
+  display: none;
+}
+
+.pNameRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pop {
+  color: #80ff00;
+  text-align: center;
+  font-size: 1.11vw;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .detRap {
+    font-size: 0.5vw;
+    gap: 6px;
+    margin-top: 0.7vw;
+  }
+  .priRow {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .plansRap {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 9.86vw;
+    gap: 20px;
+  }
+  .planIMGsp {
+    display: block;
+  }
+  .pop {
+    font-size: 4.27vw;
+  }
+  .g_8 {
+    gap: 2.13vw;
+  }
+  .planIMGpc {
+    display: none;
+  }
+  .mpTitle {
+    font-size: 5.33vw;
+  }
+  .mpMsg {
+    height: unset;
+    width: unset;
+    font-size: 3.73vw;
+    margin-top: 4.8vw;
+  }
+  .rap {
+    padding-top: 19.73vw;
+    padding: 0 4vw;
+  }
+  .planAll {
+    width: 89vw;
+    height: 103vw;
+  }
+  .pName {
+    font-size: 8.53vw;
+  }
+  .pri {
+    font-size: 9.6vw;
+  }
+  .perRap {
+    font-size: 4vw;
+  }
+  .priRow {
+    gap: 7.73vw;
+  }
+  .detRap {
+    gap: 4vw;
+    margin-top: 5.33vw;
+    font-size: 3.73vw;
+  }
+  .planAll {
+    padding: 0 4vw;
+  }
+  .sta {
+    font-size: 4.266vw;
+    width: 53.33vw;
+    height: 11.733vw;
+  }
+}

@@ -1,0 +1,292 @@
+.bg {
+  position: absolute;
+  background: black;
+  top: 0;
+  width: 100%;
+  height: 73.8194444444444vw;
+  z-index: -1;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-size: 2.77777vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 9.375vw;
+}
+.rap {
+  display: flex;
+  justify-content: center;
+  margin-top: 3.68055555vw;
+}
+.bgRap {
+  width: 72.22vw;
+  /* z-index: -1; */
+  position: relative;
+}
+.sbtImg {
+  width: 28.472vw;
+  height: 28.472vw;
+  position: absolute;
+  top: -8%;
+  left: 7.69%;
+}
+.detailTitleRap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 11.799%;
+  left: 52.884%;
+  font-weight: 700;
+}
+.detailRap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 11.799%;
+  left: 58.884%;
+}
+
+.Row {
+  display: flex;
+  margin-bottom: 1.25vw;
+}
+.img {
+  height: 100%;
+}
+.a_L {
+  position: absolute;
+  left: 40%;
+}
+.No {
+  font-family: Noto Sans JP;
+}
+.H {
+  font-weight: 400;
+}
+.des {
+  width: 20.486vw;
+  height: 6.66vw;
+  margin-left: 2.847222vw;
+  font-size: 1.11111vw;
+  overflow: hidden;
+}
+.linkRap {
+  display: flex;
+  color: #00e;
+  flex-direction: column;
+  text-align: right;
+  position: absolute;
+  font-size: 0.9722vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: -4vw;
+  right: 15%;
+  gap: 10px;
+}
+.receiveOK {
+  position: absolute;
+  right: 14vw;
+  color: #fff;
+  font-size: 0.9722vw;
+}
+.al_C {
+  align-items: center;
+}
+.name {
+  font-size: 1.66vw;
+  margin-left: 3.4vw;
+}
+.com {
+  margin-left: 3vw;
+  font-size: 1.1111vw;
+}
+.ger {
+  margin-left: 4.3vw;
+  font-size: 1.1111vw;
+}
+.con {
+  border-radius: 0 !important;
+  background: #71ff01 !important;
+  font-size: 8px !important;
+  font-weight: 700 !important;
+  line-height: 100% !important;
+  width: 9.5138vw !important;
+  height: 3.0555vw !important;
+  white-space: nowrap !important;
+}
+.mint {
+  background: #71ff01;
+  font-weight: 700;
+  font-size: 0.9722vw;
+  line-height: 100%;
+  height: 3.0555vw;
+  width: 8.194444vw;
+}
+.mintWrongWall {
+  background: #e5e6e8;
+  color: #898d96;
+  font-weight: 700;
+  font-size: 0.9722vw;
+  line-height: 100%;
+  height: 3.0555vw;
+  width: 8.194444vw;
+}
+
+.wrongWall {
+  background: #e5e6e8;
+  color: #898d96;
+}
+.rightWall {
+  color: #fff;
+  text-align: right;
+  font-family: Noto Sans JP;
+  font-size: 0.8333vw;
+  font-weight: 400;
+  line-height: 150%;
+  margin-right: 14vw;
+}
+.errWall {
+  color: #ff1e1e;
+  text-align: right;
+  font-family: Noto Sans JP;
+  font-size: 0.8333vw;
+  font-weight: 400;
+  line-height: 150%;
+  margin-right: 14vw;
+}
+.Aa {
+  display: block;
+  margin-left: 79.1944vw;
+  position: absolute;
+  margin-top: -3.1vw;
+}
+.sbtTitle {
+  font-size: 0.9722vw;
+}
+.sp {
+  display: none;
+}
+.nameRow {
+  display: flex;
+  margin-bottom: 1.25vw;
+}
+@media screen and (max-width: 599px) {
+  .title {
+    font-size: 5.333vw;
+    margin-top: 19.7333vw;
+  }
+  .bg {
+    height: 269.6vw;
+  }
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .rap {
+    margin-top: 32.53vw;
+  }
+  .sbtImg {
+    width: 53.333vw;
+    height: 53.333vw;
+    top: -23%;
+    left: 21.69%;
+  }
+  .detailTitleRap {
+    top: 23.799%;
+    left: 3.5%;
+  }
+  .sbtTitle {
+    font-size: 3.7333vw;
+    font-weight: 400;
+    line-height: 100%;
+  }
+  .name {
+    font-size: 4.8vw;
+    margin-left: 7.466vw;
+  }
+  .bgRap {
+    width: 92vw;
+  }
+  .des {
+    width: 60.53vw;
+    height: 27.66vw;
+    margin-left: 5.466vw;
+    font-size: 3.73333vw;
+  }
+  .com {
+    margin-left: 6vw;
+    font-size: 3.73vw;
+    font-weight: 500;
+  }
+  .ger {
+    margin-left: 10.5vw;
+    font-size: 3.73vw;
+    font-weight: 500;
+  }
+  .linkRap {
+    font-size: 4.2666vw;
+    right: 28%;
+    gap: 7.46vw;
+    margin-top: -31vw;
+  }
+  .receiveOK {
+    right: 14vw;
+    color: #00081a;
+    font-size: 3.733vw;
+    margin-top: -10vw;
+  }
+  .poly {
+    margin: 0 auto;
+  }
+  .Row {
+    margin-bottom: 4vw;
+  }
+  .mintWrongWall {
+    height: 11.73vw;
+    width: 53.33vw;
+    font-size: 4.266vw;
+  }
+  .mint {
+    height: 11.73vw;
+    width: 53.33vw;
+    font-size: 4.266vw;
+  }
+  .errWall {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3.2vw;
+    top: 171.66vw;
+    text-align: center;
+  }
+  .rightWall {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3.73vw;
+    top: 171.66vw;
+    text-align: center;
+    color: #00081a;
+  }
+  .Aa {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    top: 159.6vw;
+    margin: 0;
+  }
+  .nameRow {
+    margin-bottom: 3.2vw;
+  }
+  .con {
+    height: 11.73vw !important;
+    width: 53.33vw !important;
+    font-size: 4.266vw !important;
+  }
+}

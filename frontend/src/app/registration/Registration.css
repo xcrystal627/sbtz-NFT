@@ -1,0 +1,31 @@
+.IMGbox {
+  background: #00081a;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  width: 72.22vw;
+  height: 25.76vw;
+  border: solid 1px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+
+@media screen and (max-width: 599px) {
+  .IMGbox {
+    width: 53.33vw;
+    height: 53.33vw;
+    top: -23%;
+    left: 18%;
+  }
+  .frame {
+    height: 129.86vw;
+    width: 92vw;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 33.06vw !important;
+    padding: 0 3.73vw;
+  }
+}

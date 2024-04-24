@@ -1,0 +1,248 @@
+.flex {
+  display: flex;
+}
+
+.flex_col {
+  flex-direction: column;
+}
+
+.completeRap {
+  margin-top: 10.2vw;
+  align-items: center;
+  margin-bottom: unset;
+}
+
+.cpTitle {
+  font-family: Helvetica;
+  font-size: 1.66vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.SBTrap {
+  width: 72.22vw;
+  height: 17.36vw;
+  background: linear-gradient(180deg, rgba(232, 245, 255, 0) 0%, #e8f5ff 65.1%);
+
+  display: flex;
+  margin-top: 2.56vw;
+}
+
+.cpImgRap {
+  width: 13.88vw;
+  height: 13.88vw;
+  margin-top: 1.73vw;
+  margin-left: 1.73vw;
+  position: relative;
+}
+
+.cpImg {
+  height: 100%;
+}
+
+.cpdRap {
+  margin-top: 3.47vw;
+  margin-left: 2.77vw;
+}
+
+.aic {
+  align-items: center;
+}
+
+.cpt {
+  font-size: 0.97vw;
+  font-family: Helvetica;
+  line-height: 100%;
+}
+
+.cpName {
+  margin-left: 4.51vw;
+}
+
+.cpd {
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.disRow {
+  margin-top: 1.38vw;
+}
+
+.cpDis {
+  width: 42.98vw;
+  margin-left: 4.36vw;
+}
+
+.comRow {
+  margin-top: 1.31vw;
+}
+
+.cpCom {
+  margin-left: 3.9vw;
+}
+
+.gerRow {
+  margin-top: 1.38vw;
+}
+.subTitle {
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.cpGer {
+  margin-left: 4.4vw;
+}
+.title2 {
+  margin-top: 6.25vw;
+  text-align: center;
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 3.05vw;
+}
+
+.goRegister {
+  font-family: Helvetica;
+  font-size: 1.11vw;
+  font-weight: 700;
+  line-height: 100%;
+  width: 33.33vw;
+  height: 3.05vw;
+  background: #71ff01;
+  margin-top: 5.27vw;
+}
+
+.SPonly {
+  display: none;
+}
+
+.cancel {
+  font-family: Helvetica;
+  font-size: 1.11vw;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 1.38vw;
+}
+@media screen and (max-width: 599px) {
+  .completeRap {
+    margin-top: 15.73vw;
+  }
+
+  .cpTitle {
+    font-size: 5.33vw;
+  }
+
+  .f14 {
+    font-size: 3.73vw;
+  }
+
+  .f16 {
+    font-size: 4.26vw;
+  }
+
+  .SBTrap {
+    width: 92vw;
+    height: 98.13vw;
+    margin-top: 42.93vw;
+    flex-direction: column;
+    padding: 0 4vw;
+  }
+
+  .cpImgRap {
+    width: 53.33vw;
+    height: 53.33vw;
+    position: absolute;
+    top: 36vw;
+    left: 22%;
+    margin: unset;
+  }
+
+  .cpdRap {
+    margin-top: 30.66vw;
+    margin-left: unset;
+  }
+
+  .cpt {
+    font-size: 3.73vw;
+  }
+
+  .cpd {
+    line-height: 150% !important;
+    font-weight: 600;
+    font-size: 4vw;
+    margin-left: 6.4vw;
+  }
+
+  .disRow {
+    margin-top: 5.33vw;
+  }
+
+  .comRow {
+    margin-top: 5.33vw;
+  }
+
+  .cpCom {
+    font-size: 4.26vw;
+    font-weight: 700;
+    margin-left: 5.33vw;
+  }
+
+  .gerRow {
+    margin-top: 5.33vw;
+  }
+
+  .cpGer {
+    font-size: 4.26vw;
+    font-weight: 700;
+    margin-left: 7.19vw;
+    word-break: break-all;
+    flex: 1;
+  }
+
+  .cpName {
+    font-size: 4.26vw;
+    font-weight: 700;
+    margin-left: 6.4vw;
+  }
+
+  .cpDis {
+    font-size: 4.26vw;
+    font-weight: 700;
+    margin-left: 6.4vw;
+    line-height: 150% !important;
+    width: 60vw;
+  }
+
+  .goRegister {
+    font-size: 4.26vw;
+    width: 91.73vw;
+    height: 20.4vw;
+  }
+
+  .SPonly {
+    display: block;
+  }
+
+  .cancel {
+    font-size: 4.26vw;
+    margin-top: 6.66vw;
+    margin-bottom: 21.33vw;
+  }
+  .smallimg {
+    width: 26.66vw !important;
+    height: 26.66vw !important;
+    top: 36vw !important;
+    left: 37% !important;
+  }
+  .SBTrapadd {
+    margin-top: 16.26vw;
+  }
+  .title2 {
+    font-size: 4.26vw;
+  }
+}

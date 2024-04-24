@@ -1,0 +1,389 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.white_font * {
+  color: #fff !important;
+  background: #000;
+}
+
+.ft_outline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.ft_title {
+  color: #00081a;
+  font-family: Helvetica;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ft_contents {
+  display: flex;
+  align-items: center;
+  width: 640px;
+  justify-content: space-between;
+}
+
+.ft_rap_items {
+  color: #00081a;
+  font-family: Optima;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ft_rap_Twitter {
+  color: #00081a;
+  font-family: Optima;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.ft_rap_company {
+  display: flex;
+  align-items: center;
+}
+
+.ft_c {
+  width: 16px;
+  margin-right: 8px;
+}
+
+.ft_year {
+  color: #00081a;
+  font-family: Optima;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 599px) {
+  .ft_outline {
+    display: block;
+    padding: 0 14px;
+    padding-bottom: 1px;
+  }
+
+  .ft_title {
+    margin-bottom: 20px;
+  }
+
+  .ft_contents {
+    display: block;
+    width: auto;
+  }
+
+  .ft_rap_items {
+    margin: 12.5px 0;
+  }
+
+  .ft_rap_Twitter {
+    display: none;
+  }
+
+  .ft_rap_company {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 28px;
+  }
+}
+
+* {
+  border-style: none;
+  color: #00081a;
+  font-family: Optima;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: no-repeat;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+.headerbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  padding: 0px 8.333vw;
+  top: 18px;
+  z-index: 99;
+}
+
+.kari {
+  position: fixed;
+  top: 0;
+}
+
+.hd_idRap {
+  display: flex;
+  /* padding: 0px 2.0833vw; */
+  align-items: center;
+  height: 4.166vw;
+  position: absolute;
+  margin-left: 1vw;
+}
+.id {
+  /* color: rgb(0, 8, 26);
+  font-family: Optima; */
+  /* font-size: 1.388vw;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 15vw;
+  margin-top: 1.388vw; */
+  margin-top: 1.388vw;
+
+  display: flex;
+  align-items: center;
+}
+.hd_address {
+  font-size: 1.388vw;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 13vw;
+}
+
+.hd_Rap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  padding: 0px 8.333vw;
+  top: 18px;
+  z-index: 1;
+}
+.hd_singinRap {
+  display: flex;
+  padding: 0px 2.0833vw;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.hd_menuSimpleContent {
+  font-size: 1.388vw;
+  font-weight: 700;
+}
+
+.hd_communityDashBT {
+  width: 13.5vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.SBTZ {
+  font-family: Helvetica;
+  font-size: 2.22222vw;
+  font-weight: 700;
+}
+.hd_menuRap {
+  /* display: flex; */
+  position: relative;
+  width: 16.8975vw;
+  height: 4.016vw;
+}
+/* .hd_menuBgRap{
+  position: absolute;
+} */
+.menuSp {
+  display: none;
+}
+.munuBigPC {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  /* left: 2%; */
+}
+
+.menuUnderLine {
+  width: 15.48vw;
+  height: 1px;
+  flex-shrink: 0;
+  background: #00081a;
+  margin: 0 auto;
+}
+.hd_menuBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.694vw;
+}
+
+.hd_menuIDpc {
+  font-size: 1.388vw;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 15vw;
+}
+.hd_menuBox > p {
+  font-size: 1.388vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-left: 1vw;
+  cursor: pointer;
+}
+
+.hd_menuSimpleRap {
+  position: absolute;
+}
+
+.hd_menuConRap {
+  display: flex;
+  width: 16.8975vw;
+  height: 4.016vw;
+}
+.hd_menuConRap .hd_con {
+  background: none;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 1.28vw;
+  padding: 0;
+  min-width: 0 !important;
+  /* margin-left: 2.847vw; */
+  width: 12.3vw;
+}
+
+.hd_BlackArr {
+  width: 1.2vw;
+  margin-left: 2.152vw;
+}
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 599px) {
+  .hd_Rap {
+    padding: 0px 5.333vw;
+  }
+  .menuSp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    position: relative;
+    z-index: 9999;
+  }
+  .hd_menuBoxSP {
+    display: flex;
+    flex-direction: column;
+    /* padding: 18px 0; */
+    gap: 17px;
+    position: absolute;
+    z-index: 9998;
+    background: white;
+    height: 100vh;
+    width: 67vw;
+    left: 33vw;
+    top: -38%;
+  }
+
+  .hd_menuIt {
+    font-size: 4.26vw;
+    font-weight: 700;
+    line-height: 100%;
+    margin-left: 6vw;
+    cursor: pointer;
+  }
+  .hd_idRap {
+    align-items: center;
+    height: 100%;
+    cursor: pointer;
+  }
+  .SBTZ {
+    font-size: 24px;
+  }
+  .menuUnderLine {
+    width: 88%;
+  }
+  .hd_menuTitle {
+    font-size: 7.46vw;
+    margin: 0 auto;
+    margin-top: 12vw;
+  }
+  .hd_menuBgRap {
+    position: relative;
+    margin-left: 4vw;
+    height: 12vw;
+  }
+  .hd_menuID {
+    font-size: 4.26vw;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 50vw;
+    margin-left: 6.13vw;
+    display: flex;
+  }
+  .SPaddress {
+    width: 42vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .imp {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .hd_menuBgRap .hd_con {
+    background: none;
+    font-size: 4.26vw;
+    font-weight: 700;
+    width: 50vw;
+    width: 58vw;
+    height: 12vw;
+  }
+
+  .hd_menuRap {
+    display: none;
+  }
+}
+/* .headerbox{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+} */

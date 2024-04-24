@@ -1,0 +1,322 @@
+.edit_frame {
+  width: 72.22vw;
+  border: solid 1px;
+  margin: 0 auto;
+  padding: 3.125vw 0;
+}
+.Individual {
+  width: 27.77vw;
+  height: 3.125vw;
+}
+.SFframe {
+  width: 27.77vw;
+  height: 3.125vw;
+  background: #00081a;
+  color: #666b76;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.11vw;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Noto Sans JP;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
+}
+input:focus {
+  background-color: #fff;
+  border: 1px solid #00081a;
+}
+input:valid {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #00081a;
+}
+input {
+  background-color: #00081a;
+  font-size: 1.11vw;
+  vertical-align: text-top;
+  padding: 5px 1.31vw 0vw;
+}
+
+.IndividualRap {
+  /* margin-top: 3.125vw; */
+  position: relative;
+  padding: 0 5.55vw;
+}
+.secRow {
+  margin-top: 1.25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.noBT {
+  background: #e5e6e8;
+  color: #898d96;
+}
+.okBT {
+  background: #71ff01;
+  color: #00081a;
+}
+.listBTdelete {
+  border: solid 1px;
+}
+.registBT {
+  width: 5.55vw;
+  height: 3.05vw;
+  font-size: 0.97vw;
+  position: relative;
+  left: 91%;
+}
+.ListRegist {
+  position: relative;
+  padding: 0 5.55vw;
+}
+.edit_title {
+  color: #000;
+  font-family: Noto Sans JP;
+  font-size: 0.97vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.frame2 {
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  width: 72.22vw;
+  margin: 0 auto;
+  padding: 3.125vw 0;
+}
+.BTrap {
+  margin-top: 2.08vw;
+}
+.preRap {
+  position: relative;
+  background: #e8f5ff;
+  width: 66.45vw;
+}
+.pre {
+  padding: 2.77vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1.38vw;
+}
+
+.filename {
+  width: 27.77vw;
+  height: 3.125vw;
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 70%;
+}
+.tuid {
+  color: #000;
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.deleteBT {
+  font-family: Noto Sans JP;
+  font-size: 0.97vw;
+  font-weight: 400;
+  line-height: 100%;
+}
+.nonefile {
+  margin: 0 auto;
+  width: 60.9vw;
+  font-family: Noto Sans JP;
+  font-size: 0.97vw;
+  font-weight: 700;
+  line-height: 150%;
+}
+.nonefileRap {
+  margin-top: 1.38vw;
+}
+.prebox {
+  margin: 0 auto;
+  overflow: auto;
+  max-height: 68vw;
+}
+.boxrap {
+  display: flex;
+  margin-top: 3.125vw;
+  flex-direction: column;
+}
+.title3 {
+  padding: 0 5.55vw;
+  font-family: Noto Sans JP;
+  font-size: 0.97vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 1.38vw;
+}
+.step3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.125vw;
+  margin-bottom: 3vw;
+}
+.st3_t1 {
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+.st3_t2 {
+  font-family: Noto Sans JP;
+  font-size: 1.11vw;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 2.98vw;
+}
+.URL {
+  width: 41.66vw;
+  height: 3.125vw;
+  border: solid 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 1.11vw;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 2.08vw;
+}
+.copyBT {
+  width: 24.93vw;
+  height: 3.125vw;
+  background: #80ff00;
+  margin-top: 2.08vw;
+  font-family: Helvetica;
+  font-size: 0.97vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+.copied {
+  background: #CCFF01;
+}
+.CancelBT {
+  margin-top: 1.38vw;
+  font-family: Helvetica;
+  font-size: 0.97vw;
+  font-weight: 700;
+  line-height: 100%;
+}
+.deleteIcon {
+  display: none;
+}
+
+@media screen and (max-width: 599px) {
+  .edit_frame {
+    width: 92vw;
+    padding: unset;
+  }
+  .edit_title {
+    text-align: center;
+    font-size: 3.73vw;
+    margin-top: 5.2vw;
+  }
+  .secRow {
+    flex-direction: column;
+    margin-top: 8vw;
+    gap: 5.33vw;
+  }
+  .subTitle {
+    font-size: 3.73vw;
+    width: 70vw;
+    text-align: center;
+  }
+  .frame2 {
+    width: 92vw;
+  }
+  .Individual {
+    width: 84vw;
+    height: 12vw;
+    text-align: center;
+  }
+  input {
+    font-size: 3.73vw;
+    padding: unset;
+  }
+  .registBT {
+    width: 24.26vw;
+    height: 11.73vw;
+    left: 72.3%;
+    font-size: 3.73vw;
+  }
+  .SFframe {
+    width: 84vw;
+    height: 12vw;
+    font-size: 3.73vw;
+  }
+  .BTrap {
+    margin-top: 8vw;
+    margin-bottom: 6.2vw;
+  }
+  .nonefile {
+    width: 84vw;
+    font-size: 3.2vw;
+  }
+  .filename {
+    width: 84vw;
+    height: 12vw;
+  }
+  .title3 {
+    font-size: 3.73vw;
+  }
+  .preRap {
+    width: unset;
+  }
+  .prebox {
+    margin: unset;
+  }
+  .deleteBT {
+    display: none;
+  }
+  .deleteIcon {
+    display: block;
+  }
+  .st3_t1 {
+    font-size: 4.26vw;
+  }
+  .st3_t2 {
+    font-size: 3.73vw;
+    width: 57vw;
+    text-align: center;
+    margin-top: 8vw;
+    line-height: 150%;
+  }
+  .URL {
+    width: 84vw;
+    height: 12vw;
+    font-size: 3.73vw;
+    margin-top: 5.33vw;
+  }
+  .copyBT {
+    width: 84vw;
+    height: 12vw;
+    font-size: 3.73vw;
+    margin-top: 5.33vw;
+  }
+  .CancelBT {
+    font-size: 3.73vw;
+    margin-top: 5.33vw;
+  }
+  .step3 {
+    margin-top: 8vw;
+  }
+}

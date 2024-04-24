@@ -1,0 +1,653 @@
+.body {
+  position: absolute;
+  top: 0;
+}
+.rotatedelement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66vw;
+  height: 66vw;
+  transform: rotate(-45deg);
+  flex-shrink: 0;
+  position: absolute;
+  left: 3%;
+  top: 0;
+  transform-origin: top left;
+  /* background: linear-gradient(225deg, #FFF 17.79%, #E8F5FF 96.1%); */
+  background-color: pink;
+  z-index: -99;
+}
+/* 
+  .account{
+    height: 135.6944444444vw;
+  } */
+.name {
+  display: flex;
+  color: #00081a;
+  text-align: center;
+  font-family: Optima;
+  font-size: 2.5vw;
+  margin-bottom: 1.389vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-top: 8.125vw;
+  justify-content: center;
+  gap: 2.38vw;
+}
+.rap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 105vw;
+}
+
+.bt {
+  margin-left: 1.385vw;
+}
+
+.id {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+  color: #00081a;
+  text-overflow: ellipsis;
+  font-family: Optima;
+  font-size: 1.111vw;
+  line-height: 150%;
+  font-weight: 700;
+  margin-bottom: 0.694vw;
+}
+
+.pr {
+  width: 35vw;
+  margin-bottom: 3.472vw;
+  font-size: 1.111vw;
+  font-family: Optima;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.icon {
+  display: flex;
+  width: 12.5vw;
+  height: 12.5vw;
+  transform: rotate(-45deg);
+  position: absolute;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 1001;
+  cursor: pointer;
+}
+
+.tabList {
+  font-size: 2.08vw;
+  font-weight: 700;
+  display: flex;
+  gap: 31vw;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 32vw;
+  margin-left: 1vw;
+}
+.Receive {
+  color: #71ff01;
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotate(45deg);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index: 1001;
+  top: 26vw;
+}
+
+.sbtsection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 34vw;
+}
+
+.sbtArea {
+  display: flex;
+  width: 800px;
+  height: 800px;
+  transform: rotate(-45deg);
+  position: relative;
+}
+
+.sbtArea > div {
+  position: absolute;
+}
+.sbtArea > div > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.sbt1 {
+  top: 27%;
+  left: 23.9%;
+  width: 49%;
+  height: 49%;
+}
+
+.sbt2 {
+  left: 75%;
+  top: 35%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt3 {
+  top: 51.3%;
+  right: 0%;
+  width: 25%;
+  height: 25%;
+}
+
+.sbt4 {
+  bottom: 8%;
+  right: 19%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt5 {
+  bottom: 8%;
+  right: 35%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt6 {
+  bottom: -2%;
+  right: 51%;
+  width: 25%;
+  height: 25%;
+}
+
+.sbt7 {
+  bottom: 7.7%;
+  right: 77.3%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt8 {
+  bottom: 24%;
+  left: -2%;
+  width: 25%;
+  height: 25%;
+}
+
+.sbt9 {
+  bottom: 50%;
+  left: 8%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt10 {
+  bottom: 66%;
+  left: 8%;
+  width: 15%;
+  height: 15%;
+}
+
+.sbt11 {
+  left: 24%;
+  width: 25%;
+  height: 25%;
+}
+
+.sbt12 {
+  left: 50%;
+  top: 10%;
+  width: 15%;
+  height: 15%;
+}
+
+.btprev {
+  position: absolute;
+  transform: rotate(45deg);
+  top: -1.4%;
+  left: -0.5%;
+}
+
+.btnext {
+  position: absolute;
+  transform: rotate(45deg);
+  bottom: -1.5%;
+  right: -0.4%;
+}
+
+.pageArea {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  position: absolute;
+  top: 104vw;
+  width: 100%;
+}
+
+.userID {
+  overflow: hidden;
+  color: #00081a;
+  text-overflow: ellipsis;
+  width: 29.3vw;
+  line-height: 2;
+}
+
+.nameDetail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.overlayStyle {
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 135.6944444444vw;
+  position: absolute;
+  top: 0;
+  z-index: 1001;
+}
+.editOverlay {
+  background: rgba(0, 8, 26, 0.3);
+  width: 100%;
+  height: 135.6944444444vw;
+  position: absolute;
+  top: 0;
+  z-index: 1001;
+}
+
+.editBox {
+  position: fixed;
+  left: 33%;
+  top: 8.125vw;
+}
+
+.nameArea {
+  resize: none;
+  line-height: 2;
+  width: 34.7vw;
+  height: 3.05vw;
+  font-size: 0.97vw;
+  padding-left: 0.6vw;
+  padding-top: 0.9vw;
+  border: 1px solid;
+}
+.prArea {
+  resize: none;
+  line-height: 1.5;
+  width: 34.7vw;
+  height: 8.33vw;
+  margin-top: 3vw;
+  font-size: 1.11vw;
+  padding: 1vw;
+  border: 1px solid;
+}
+.editBt {
+  cursor: pointer;
+  width: 1.5vw;
+}
+
+.editDoneCancel {
+  text-align: center;
+  font-size: 1.66vw;
+  font-weight: 700;
+  line-height: 120%;
+  padding: 10px 14px;
+  background: white;
+}
+.editItemsRap {
+  display: flex;
+  gap: 1.388vw;
+  position: absolute;
+  left: 44%;
+  top: 22vw;
+}
+
+.editIconRap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  z-index: 1001;
+  top: 18vw;
+  right: 24.4%;
+}
+
+.iconGreenBg {
+  height: 135.6944444444vw;
+  background: rgba(113, 255, 1, 0.5);
+  margin: 0 auto;
+  width: 20.833vw;
+  padding-top: 23.291vw;
+}
+
+.modalIcon {
+  width: 20.833vw;
+  height: 20.833vw;
+}
+
+.modalBkgreen {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  background: rgba(113, 255, 1, 0.5);
+  z-index: 10001;
+}
+
+.modalContentRap {
+  display: flex;
+  gap: 6.944vw;
+  padding: 0 15.277vw;
+  align-items: center;
+}
+
+.currentSbtDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.currentSbtDetail * {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.currentSbtDetail > p {
+  display: flex;
+}
+
+.modalContentRap img {
+  width: 27.77vw;
+  height: 27.77vw;
+}
+
+.titleRap {
+  margin-top: 2.361vw;
+  margin-bottom: 1.527vw;
+  align-items: center;
+}
+.sbtTitle {
+  font-family: Noto Sans JP;
+  font-size: 30px;
+  line-height: 120%;
+  margin-left: 76px;
+}
+
+.sbtMargin {
+  margin-left: 25px;
+  margin-bottom: 22px;
+}
+
+.sbtGer {
+  margin-left: 42px;
+  margin-bottom: 22px;
+}
+
+.sbtRec {
+  margin-left: 55px;
+}
+.sbtRec2 {
+  margin-top: 18px;
+}
+
+.spBackGround {
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .sbtArea {
+    width: 55vw;
+    height: 55vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .pr {
+    -webkit-line-clamp: 3;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .rap {
+    margin-bottom: 164vw;
+  }
+  .spBackGround {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+  }
+  .pcBackGround {
+    display: none;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .nameDetail {
+    width: 63vw;
+  }
+
+  .btnext {
+    display: none;
+  }
+
+  .btprev {
+    display: none;
+  }
+  .spbgcut {
+    height: 100%;
+    width: 100%;
+  }
+
+  .overlayStyle {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    height: 270vw;
+    align-items: center;
+  }
+
+  .sbtModalImg {
+    width: 53.33vw;
+    height: 53.33vw;
+    margin: 0 auto;
+  }
+
+  .currentSbtDetail * {
+    font-weight: 500;
+  }
+
+  .sbtTitle {
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  .sbtMargin {
+    margin-left: 0px;
+    margin-bottom: 5.33vw;
+    width: 60vw;
+    font-family: Noto Sans JP;
+  }
+
+  .sbtGer {
+    margin-left: 0px;
+    margin-bottom: 5.33vw;
+  }
+
+  .sbtRec {
+    margin-left: 0;
+  }
+
+  .titleRap {
+    margin-left: 52px;
+  }
+
+  .genRap {
+    margin-left: 18px;
+  }
+  .recRap {
+    margin-left: 30px;
+  }
+
+  .iconGreenBg {
+    background: none;
+    display: flex;
+    align-items: center;
+    padding-top: 0px;
+    width: auto;
+  }
+  .modalIcon {
+    width: 53.33vw;
+    height: 53.33vw;
+  }
+
+  .sbtGer {
+    font-family: Noto Sans JP;
+  }
+  .sbtRec {
+    font-family: Noto Sans JP;
+  }
+  .sbtRec2 {
+    font-family: Noto Sans JP;
+  }
+
+  .sbtArea {
+    width: 83vw;
+    height: 83vw;
+  }
+  .name {
+    margin-top: 65px;
+    margin-bottom: 0;
+  }
+
+  .container {
+    top: 56vw;
+    z-index: 0;
+  }
+
+  .pr {
+    width: 80vw;
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 26.66vw;
+    height: 26.66vw;
+  }
+  .sbtsection {
+    top: 79vw;
+    overflow: hidden;
+    height: 101vw;
+    width: 100%;
+    position: absolute;
+  }
+
+  .pageArea {
+    position: absolute;
+    top: 174vw;
+    width: 100%;
+  }
+
+  .sbtfixedrap {
+    position: fixed;
+    top: 8%;
+  }
+  .titleRap {
+    margin-top: 26px;
+  }
+  .currentSbtDetail > p {
+    font-weight: 700;
+  }
+  .modalIconRapSP {
+    position: fixed;
+    top: 37%;
+  }
+
+  .id {
+    font-size: 12px;
+    align-items: center;
+  }
+
+  .tabList {
+    gap: 47vw;
+    top: 72vw;
+    font-size: 14px;
+  }
+
+  .userID {
+    width: 45.6vw;
+  }
+
+  .editBt {
+    width: 21px;
+    position: absolute;
+    right: 12%;
+  }
+  .editBox {
+    left: 16%;
+    top: 7%;
+  }
+  .nameArea {
+    width: 68vw;
+    height: 44px;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-left: 14px;
+  }
+  .prArea {
+    font-size: 12px;
+    padding: 10px 15px;
+    height: 76px;
+    width: 68vw;
+  }
+  .editIconRap {
+    top: 58vw;
+    right: 0%;
+    position: fixed;
+  }
+  .editOverlay {
+    height: 270vw;
+  }
+
+  .editDoneCancel {
+    padding: 2.66vw 5.33vw;
+    font-size: 4.26vw;
+  }
+  .editItemsRap {
+    position: fixed;
+    left: 73.2%;
+    top: 78vw;
+  }
+}
